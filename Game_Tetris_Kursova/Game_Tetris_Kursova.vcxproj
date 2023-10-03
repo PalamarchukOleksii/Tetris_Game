@@ -137,6 +137,13 @@
   <ItemGroup>
     <ClInclude Include="Designe.h" />
     <ClInclude Include="Game.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Game_Tetris_Kursova.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\tetris_15552.ico" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
