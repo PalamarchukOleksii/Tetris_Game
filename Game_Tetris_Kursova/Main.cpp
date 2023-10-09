@@ -3,7 +3,6 @@
 #include "Designe.h"
 #include "Game.h"
 #include <stdlib.h>
-#include <time.h>
 
 int main() {
 	HWND hwnd = GetConsoleWindow();
@@ -13,7 +12,7 @@ int main() {
 	MoveWindow(hwnd, rectC.left, rectC.top, 100 * 8, 34 * 16, TRUE);
 	SetWindowLong(hwnd, GWL_STYLE, GetWindowLong(hwnd, GWL_STYLE) & ~WS_MAXIMIZEBOX & ~WS_SIZEBOX);
 	system("mode con cols=100 lines=34");
-	//SetConsoleTitle(L"Tetris");
+	SetConsoleTitle(L"Tetris");
 
 	CONSOLE_SCREEN_BUFFER_INFO csbuf;
 	GetConsoleScreenBufferInfo(hStdOut, &csbuf);
