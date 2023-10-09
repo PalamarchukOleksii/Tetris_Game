@@ -4,15 +4,16 @@ project(CMakeTetris VERSION 0.1.0 LANGUAGES C CXX)
 include(CTest)
 enable_testing()
 
-add_executable(CMakeTetris Main.cpp)
-
 set(SOURCES
-src/Desinge.cpp
-src/Designe.h
-src/Game.cpp
-src/Game.h
-src/resource.h
+Game_Tetris_Kursova/Desinge.cpp
+Game_Tetris_Kursova/Designe.h
+Game_Tetris_Kursova/Game.cpp
+Game_Tetris_Kursova/Game.h
+Game_Tetris_Kursova/resource.h
+Game_Tetris_Kursova/Main.cpp
 )
+
+add_executable(CMakeTetris ${SOURCES})
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
