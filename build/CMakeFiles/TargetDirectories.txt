@@ -1,0 +1,9 @@
+D:/VS code projects/Tetris_Game/build/CMakeFiles/Experimental.dir
+D:/VS code projects/Tetris_Game/build/CMakeFiles/Nightly.dir
+D:/VS code projects/Tetris_Game/build/CMakeFiles/Continuous.dir
+D:/VS code projects/Tetris_Game/build/CMakeFiles/NightlyMemoryCheck.dir
+D:/VS code projects/Tetris_Game/build/CMakeFiles/CMakeTetris.dir
+D:/VS code projects/Tetris_Game/build/CMakeFiles/PACKAGE.dir
+D:/VS code projects/Tetris_Game/build/CMakeFiles/RUN_TESTS.dir
+D:/VS code projects/Tetris_Game/build/CMakeFiles/ALL_BUILD.dir
+D:/VS code projects/Tetris_Game/build/CMakeFiles/ZERO_CHECK.dir
