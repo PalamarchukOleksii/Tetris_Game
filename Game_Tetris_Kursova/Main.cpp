@@ -2,7 +2,6 @@
 #include <conio.h>
 #include "Designe.h"
 #include "Game.h"
-#include <stdlib.h>
 
 int main() {
 	HWND hwnd = GetConsoleWindow();
