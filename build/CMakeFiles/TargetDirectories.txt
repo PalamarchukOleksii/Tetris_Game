@@ -1,4 +1,0 @@
-D:/прога/Game_Tetris_Kursova/build/CMakeFiles/MyLib.dir
-D:/прога/Game_Tetris_Kursova/build/CMakeFiles/MyTetris.dir
-D:/прога/Game_Tetris_Kursova/build/CMakeFiles/ALL_BUILD.dir
-D:/прога/Game_Tetris_Kursova/build/CMakeFiles/ZERO_CHECK.dir
