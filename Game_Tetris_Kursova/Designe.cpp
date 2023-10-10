@@ -406,12 +406,12 @@ void InfWind::print() const
 void InfWind::setTxPos()
 {
 	if (!centering) {
-		Text::x = Rect::Position::x + (Rect::width - text.length()) / 2;
-		Text::y = Rect::Position::y + Rect::height / 2;
+		Text::x = Wind::Rect::x + (Rect::width - text.length()) / 2;
+		Text::y = Wind::Rect::y + Rect::height / 2;
 	}
 	if (centering == 1) {
-		Text::x = Rect::Position::x + (Rect::width - text.length()) / 2;
-		Text::y = Rect::Position::y + 1;
+		Text::x = Wind::Rect::x + (Rect::width - text.length()) / 2;
+		Text::y = Wind::Rect::y + 1;
 	}
 }
 
